@@ -1,0 +1,73 @@
+Language model created by QuickLM on Sat Sep  8 19:49:41 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 3 sentences and 15 words
+
+\data\
+ngram 1=15
+ngram 2=19
+ngram 3=16
+
+\1-grams:
+-1.1663 </s> -0.3010
+-1.1663 <s> -0.2704
+-1.6435 A -0.2910
+-1.6435 ARE -0.2704
+-1.6435 DO -0.2704
+-1.6435 EAT? -0.2704
+-1.6435 HUNGRY? -0.2704
+-1.6435 LIKE -0.2808
+-1.6435 MOVIE? -0.2704
+-1.3424 TO -0.2808
+-1.6435 WANT -0.2808
+-1.6435 WATCH -0.2910
+-1.6435 WHAT -0.2910
+-1.6435 WOULD -0.2704
+-1.1663 YOU -0.2704
+
+\2-grams:
+-0.7782 <s> ARE 0.0000
+-0.7782 <s> DO 0.0000
+-0.7782 <s> WHAT 0.0000
+-0.3010 A MOVIE? 0.0000
+-0.3010 ARE YOU -0.2218
+-0.3010 DO YOU -0.2218
+-0.3010 EAT? </s> -0.3010
+-0.3010 HUNGRY? </s> -0.3010
+-0.3010 LIKE TO -0.1761
+-0.3010 MOVIE? </s> -0.3010
+-0.6021 TO EAT? 0.0000
+-0.6021 TO WATCH 0.0000
+-0.3010 WANT TO -0.1761
+-0.3010 WATCH A 0.0000
+-0.3010 WHAT WOULD 0.0000
+-0.3010 WOULD YOU -0.2218
+-0.7782 YOU HUNGRY? 0.0000
+-0.7782 YOU LIKE 0.0000
+-0.7782 YOU WANT 0.0000
+
+\3-grams:
+-0.3010 <s> ARE YOU
+-0.3010 <s> DO YOU
+-0.3010 <s> WHAT WOULD
+-0.3010 A MOVIE? </s>
+-0.3010 ARE YOU HUNGRY?
+-0.3010 DO YOU WANT
+-0.3010 LIKE TO EAT?
+-0.3010 TO EAT? </s>
+-0.3010 TO WATCH A
+-0.3010 WANT TO WATCH
+-0.3010 WATCH A MOVIE?
+-0.3010 WHAT WOULD YOU
+-0.3010 WOULD YOU LIKE
+-0.3010 YOU HUNGRY? </s>
+-0.3010 YOU LIKE TO
+-0.3010 YOU WANT TO
+
+\end\
